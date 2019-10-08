@@ -16,7 +16,7 @@ body{
    background-color: rgba(255, 151, 0, 0.1);
    padding: 10px;
    color: #FF9700;
-   font-family: Consolas,monaco,monospace;
+   font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
  }
  menu ul{
   display: flex;
@@ -29,20 +29,20 @@ body{
  menu a:link{
   color: #FF9700;
   text-decoration: none;
-  font-family: Consolas,monaco,monospace;
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
  }
  menu a:visited {
   color: #FF9700;
-  font-family: Consolas,monaco,monospace;
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
 }
 menu a:hover {
  color: white;
- font-family: Consolas,monaco,monospace;
+ font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
 }
 
 menu a:active {
   color: #A155B8;
-  font-family: Consolas,monaco,monospace;
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
 }
  .screenshots{
   margin-top: 20px;
