@@ -45,10 +45,7 @@ menu a:active {
   color: #A155B8;
   font-family: Consolas,monaco,monospace;
 }
- footer{
-  margin-top: 100px;
 
- }
  .gauche{
    max-width: 500px;
    margin-left: 20px;
