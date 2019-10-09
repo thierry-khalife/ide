@@ -1,66 +1,111 @@
 body{
-   background-image: url("img/eclipsewp.jpg");
-   background-size: cover;
-   background-attachment: fixed;
+   background-color: black;
    margin:0;
+   display: flex;
+   flex-direction: column;
  }
  main{
    height: 100%;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
+   display: flex;
+   align-items: flex-start;
+   padding: 20px;
  }
+ header{
+   background-color: rgba(42, 35, 90, 0.3);
+   height: 50px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 10px;
+   color: white;
+   font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+ }
+ .spacing{
+   height: 360px;
+   background-image: url("img/eclipselogo.png");
+   background-size: 1200px 300px;
+   background-position: center center;
+   background-repeat: no-repeat;
+ }
+ menu ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+ }
+ menu li{
+  padding: 50px;
+ }
+ menu a:link{
+  color: white;
+  text-decoration: none;
+  font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+ }
+ menu a:visited {
+  color: white;
+  font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+}
+menu a:hover {
+ color: #521F7C;
+ font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+}
+
+menu a:active {
+  color: white;
+  font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+}
  .description{
-  margin-left: 80px;
   background-color: rgba(255,255,255,0.1);
   padding: 10px;
-  max-width: 400px;
-  max-height: 400px;
   border: solid;
-  border-color: #129A76;
-  border-radius: 10px;
+  border-color: #2A235A;
+  border-radius: 30px;
   color: white;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
  }
+ .descritpion p{
+  font-size: 15px;
+ }
+.description h1{
+  font-size: 30px;
+  color: #F7941D;
+ }
+.description h2{
+  font-size: 30px;
+  color: #2A235A;
+ }
+
+.description img{
+  border-radius: 10px;
+  width: 75px;
+  height: 75px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.description img:hover{
+   -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
   .description p{
   font-size: 15px;
  }
   .description h1{
   font-size: 30px;
  }
- .ide{
-  margin-right: 120px;
-    background-color: rgba(255,255,255,0.1);
-  padding: 10px;
-  max-width: 400px;
-  max-height: 400px;
-  border: solid;
-  border-color: #129A76;
+ 
+
+ #screenshots img{
   border-radius: 10px;
-  color: white;
+  width: 200px;
+  height: 100px;
   -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-}
- .ide img{
-   width: 150px;
-   height: 150px;
-   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
- }
- .ide img:hover{
- -webkit-transform: scale(1.3);
+}
+#screenshots img:hover{
+  -webkit-transform: scale(1.3);
   transform: scale(1.3);
- }
-  .ide p{
-  font-size: 15px;
- }
-  .ide h1{
-  font-size: 30px;
- }
+}
