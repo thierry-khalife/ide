@@ -15,9 +15,12 @@ body{
  }
  menu{
    margin: 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
    background-color: rgba(130, 179, 205, 0.1);
    padding: 10px;
-   color: #82B3CD;
+   color: white;
    font-family: Brush Script MT,cursive; 
  }
  menu ul{
