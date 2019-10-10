@@ -26,6 +26,9 @@ body{
    background-size: 1200px 300px;
    background-position: center center;
    background-repeat: no-repeat;
+   -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+
  }
  menu ul{
   display: flex;
@@ -62,8 +65,8 @@ menu a:active {
   color: white;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
  }
  .descritpion p{
   font-size: 15px;

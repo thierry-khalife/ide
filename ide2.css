@@ -58,8 +58,8 @@ menu a:active {
   color: #FF9700;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
  }
 .screenshots p{
   font-size: 15px;
@@ -91,8 +91,9 @@ menu a:active {
   color: #FF9700;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+
  }
 .social p{
   font-size: 15px;
@@ -123,8 +124,8 @@ menu a:active {
   color: #FF9700;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
  }
 .download p{
   font-size: 15px;
@@ -154,8 +155,8 @@ menu a:active {
   color: #FF9700;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
  }
   .description p{
   font-size: 15px;
